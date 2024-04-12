@@ -47,9 +47,10 @@ ul{
 }
 
 ul li{
+    position: absolute;
     list-style: none;
     margin-left: 100px;
-    margin-top: 125px;
+    margin-top: 290px;
     font-size: 30px;
 }
 
@@ -87,11 +88,12 @@ ul li a:hover{
 }
 
 .credentials {
-    text-align: right;
-    margin-top: -200px;
-    margin-left: 900px;
+    position: absolute;
+    text-align: left;
+    margin-top: 350px;
+    margin-left: 880px;
     color: #111f17;
-    font-size: 20px;
+    font-size: 23px;
     font-family: Times New Roman;
     padding: 20px;
 }
@@ -99,6 +101,7 @@ ul li a:hover{
     text-decoration: underline;
 }
 .note-box {
+    position: absolute;
     margin-top: 300px;
     border: 2px solid #111314; 
     background-color: #dff5e9;
@@ -107,21 +110,19 @@ ul li a:hover{
 }
 
 .note {
+    
     text-align: left;
     color: #077a39;
     font-size: 20px;
 }
 
 .note h3 {
+    
     margin-top: 0;
     font-size: 25px;
 }
 
 .note h3 {
+    
     text-decoration: underline;
-}
-
-
-
-
-
+}  
